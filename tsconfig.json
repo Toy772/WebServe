@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",//Diretorios de codigos Typescript
+    "outDir": "lib", //Diretorio de saida para os arquivos compilados
+    "sourceMap": true, //Gera mapas de origem para facilitaro debug
+    "noImplicitAny": true,// Noa permite decalração de variaveis ou parametros sem tipo
+    "noImplicitReturns": true,// verifica se todas as funcoespossui tipo de retorno imformado
+    "noEmitOnError": true, //Noa gera codigo Js caso haja algum erro durante o processo de compilacao
+    "strictNullChecks": true, // força a verificacao de valores null ou undefined
+    "noUnusedLocals": true, // sinaliza quando exitem variaveis declaradas e nao utilizadas
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"]
+}
