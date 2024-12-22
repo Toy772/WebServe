@@ -10,12 +10,13 @@ npm uninstall <typescript>          --->    desinstala pacote
 
 npm install tsc-watch --save-dev    --->    instal o nodemon (para atulizar o serve a cada atulizacao de codigo)
 
-npx <comando>                       --->    execulta comandos de pacotes
+npx < comando >                       --->    execulta comandos de pacotes
 ------------------------------------------------------------------------------------------------
 
 --- comandos "Vscode" ---
 ------------------------------------------------------
 crlt + L    --->    Limpa terminal
+crlt + D    --->    seleciona toda as varivais com msm nome 
 ------------------------------------------------------
 
 --- comandos git ---
